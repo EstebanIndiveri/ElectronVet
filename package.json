@@ -1,0 +1,16 @@
+{
+  "name": "fullstackdesktop",
+  "version": "1.0.0",
+  "description": "electronapp",
+  "main": "index.js",
+  "scripts": {
+    "start": "electron .",
+    "dist":"electron-builder -w"
+  },
+  "author": "Esteban indiveri",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^8.2.3",
+    "electron-builder": "^22.5.1"
+  }
+}
